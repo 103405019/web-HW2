@@ -1,0 +1,221 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+
+#all{
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+	font-family: '微軟正黑體', sans-serif;
+	font-size: 0.7em;
+}
+
+header>nav{
+	width: 40%;
+	padding-bottom: 10px;
+}
+
+header>nav>ul :nth-child(3){
+	list-style-image: url('http://artist.nccu.edu.tw/2012spring/images/arrow_pink_sm_down.gif');
+}
+
+header>nav>ul :nth-child(3) :link{
+	list-style-image: url('http://artist.nccu.edu.tw/2012spring/images/arrow_pink_sm_down.gif');
+	color:red;
+}
+
+header>nav>ul{
+	list-style-image: url('http://artist.nccu.edu.tw/2012spring/images/arrow_green_sm.gif');
+	list-style-position: inside;
+}
+
+header>nav>ul :nth-child(7){
+	border-bottom-style: none;
+}
+
+header>nav>ul :nth-child(8){
+	border-bottom-style: none;
+}
+
+header>nav>ul>li{
+	margin-right: 17px;
+	width: 45%;
+	float: left;
+	line-height: 1.7;
+	border-style: none;
+    border-bottom: thin dotted #7F7F7F;
+    font-size: 1.2em;
+}
+
+header>nav>ul>li :hover{
+	color:#E75625;
+}
+
+header>nav>ul>li :visited{
+	color:red;
+}
+
+header :link{
+	text-decoration: none;
+	color:green;
+}
+
+header{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+}
+
+#head_pic{
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+#concert_info{
+	height: 304px;
+	box-sizing: border-box;
+	padding: 3em 5em 2em 3em;
+	background-color: black;
+	color: white;
+	line-height: 1.8;
+}
+
+strong{
+	color:#E75625;
+	font-size: 1.5em;
+	padding: 0.5em 0em;
+	font-family: serif;
+}
+
+section{
+	width: 71%;
+	line-height: 1.7;
+	margin-top: 20px;
+}
+
+#coffee{
+	font-size: 1.2em;
+}
+
+aside{
+	width: 27%;
+	float:right;
+	box-sizing: border-box;
+	padding: 1%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #B6D032;
+	background-color: #ECF5D8;
+}
+
+h4{
+	font-size: 1.4em;
+	color: #6E9D44;
+	font-family: serif;
+	line-height: 60%;
+}
+
+table{
+	border-collapse: collapse;
+	border:1px solid white;
+	width: 100%;
+	background-color: #ECF5D8;
+}
+
+tr, td{
+	border:1px solid white;
+	padding: 2px;
+}
+
+tr :first-child{
+	text-align: center;
+}
+
+#table_top{
+	background-color: #89C616;
+}
+
+#table_border{
+	background-color: #ECF5D8;
+	padding: 1px;
+}
+
+.one_row{
+	background-color: white;
+	font-weight: 600;
+}
+
+#concert_artists{
+	padding-top: 0.1px;
+}
+
+#black{
+	background-color: black;
+	padding-top: 100px;
+}
+
+article{
+	width: 62%;
+	float: right;
+}
+
+.artist_info{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	border-bottom: thin dotted; 
+	border-bottom-color: #EF8626
+}
+
+div>article>h4{
+	margin: 6px;
+	margin-bottom: 20px;
+}
+
+#last{
+	border: none;
+	padding-bottom: 120px
+}
+
+#top_icon{
+	float: right;
+}
+
+footer{
+	width: 960px;
+	line-height: 1.7;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	padding-top: 10px;
+	border-top: thin dotted;
+	padding-bottom: 10px;
+	border-bottom: thick solid #858585
+}
+
+#art_center_info{
+	text-align: left;
+	display: flex;
+}
+
+footer>div{
+	width: 45%;
+	text-align: right;
+	line-height: 1.7;
+}
+
+footer :link{
+	text-decoration: none;
+	color: #434343
+}
+
+footer :visited{
+	text-decoration: none;
+	color: #434343
+}
+footer>img{
+	justify-content: flex-start;
+}
